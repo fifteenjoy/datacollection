@@ -8,3 +8,4 @@ You can fetch all product url or all product data seperately, by following comma
 php -f fetch.php -- --info duravit
 php -f fetch.php -- --url duravit
 
+Related data file will be stored in  in /task/manufacturer/download/duravit
