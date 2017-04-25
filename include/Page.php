@@ -18,6 +18,7 @@ class Page {
 
     protected function _loadPage($productUrl){
         $this->_currentPage=$productUrl;
+        //TODO 1. use curl instead 2. deal with memory exceed.
         $html=  file_get_contents($productUrl);
        // $this->before($html);
         phpQuery::newDocumentHTML($html,$this->charset);
