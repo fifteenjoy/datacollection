@@ -1,5 +1,5 @@
 # datacollection
-This is one useful tool that integrated phpQuery, zend and phpexcel, which support extract data from
+This is one useful tool that integrat phpQuery, zend and phpexcel, which support extract data from
     one website.
 
 phpQuery is one excellent extension, that you can extract web data once you know jQuery, for example
