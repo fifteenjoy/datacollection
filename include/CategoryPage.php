@@ -41,8 +41,7 @@ class CategoryPage extends Page{
     /*get products url from currentPage*/
     protected function getUrls($url_log) {
 
-        /* TODO there is should be exception to detect connection as sometime it just fetch 46 page but it is 56
-         page in fact. may be there is connectin issue
+        /* TODO there is should be exception to detect connection as sometime there is connectin issue
         */
         $this->download_log->addRow("Download form " .$this->_currentPage);
         foreach(pq($this->selector) as $v) {
@@ -55,7 +54,7 @@ class CategoryPage extends Page{
     }
 
     /*
-     * Can do some data format or modify before record to file
+     * Can do some data format or modification before record to file
      */
     public function beforeRecord($href) {
         return $href;
